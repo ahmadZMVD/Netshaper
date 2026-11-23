@@ -56,6 +56,10 @@ gh auth refresh -h github.com -s codespace
 
 ## Quick Start & Build
 
+```git
+git clone [https://github.com/ahmadZMVD/Netshaper.git
+```
+
 ### Windows 11 (`cmd.exe`)
 
 ```bat
