@@ -130,7 +130,7 @@ When using the desktop UI, the last selected Codespace name, tray preference, an
 
 ## Testing & Verification
 
-### Go Test Suite (61 Tests: `UT-01..UT-40`, `ST-01..ST-21`)
+### Go Test Suite (71 Tests: UT-01..UT-49, ST-01..ST-22)
 
 ```powershell
 $env:CGO_ENABLED = "0"
