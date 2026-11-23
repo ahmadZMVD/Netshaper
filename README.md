@@ -1,7 +1,13 @@
 # NetShaper
 
+[https://img.shields.io/badge/Platform-Windows%2011%20%7C%20Linux%20%7C%20macOS-0078D4?style=flat-square]
+[https://img.shields.io/badge/Go-1.22%2B%20(Zero--CGO]-00ADD8?style=flat-square&logo=go)
+[https://img.shields.io/badge/Tests-71%20Passing%20(UT--49%20%2B%20ST--22]-2EA043?style=flat-square)
+[https://img.shields.io/badge/License-MIT-blue?style=flat-square]
+
 NetShaper is a native, zero-CGO SOCKS5 proxy supervisor and desktop utility written in Go. It manages a pool of multiplexed `gh codespace ssh -D` tunnels behind a single local SOCKS5 endpoint (`127.0.0.1:1080`) for high-jitter, aggressive CG-NAT, and low-PMTU networks.
 
+[banner.jpg]
 ## Overview
 
 Running a raw `gh codespace ssh -D` session directly on unstable or aggressively NATed networks fails in several predictable ways:
@@ -56,9 +62,15 @@ gh auth refresh -h github.com -s codespace
 
 ## Quick Start & Build
 
-```git
-git clone [https://github.com/ahmadZMVD/Netshaper.git
-```
+### Pre-built Binary (Windows 11)
+
+Download `NetShaper.exe` directly from the [Latest Release](https://github.com/ahmadZMVD/Netshaper/releases/latest) and launch it with no Go toolchain required.
+
+### Build from Source
+
+```bash
+git clone [https://github.com/ahmadZMVD/Netshaper.git](https://github.com/ahmadZMVD/Netshaper.git)
+cd Netshaper
 
 ### Windows 11 (`cmd.exe`)
 
