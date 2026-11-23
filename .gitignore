@@ -1,0 +1,23 @@
+# Compiled binaries and build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.tmp
+dist/
+build/
+
+# NetShaper runtime state and logs
+netshaper_history.log
+netshaper_metrics*.ndjson
+netshaper_ui.json
+codespace_state_cache.json
+simulation_results.json
+
+# IDE and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
